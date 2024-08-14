@@ -1,0 +1,161 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Headings */
+h1 {
+    font-size: 2.5em;
+    color: #1a73e8; /* Changed to blue */
+    margin: 0;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #4169E1;
+    padding-bottom: 10px;
+}
+
+header {
+    background-color: white; /* White background for header */
+    display: flex;
+    flex-direction: column;
+}
+
+/* New Header Structure */
+.header-title {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centers the header title and icon together */
+    background-color: white; /* White background for the title */
+    padding: 10px;
+}
+
+.header-icon {
+    width: 80px; /* Adjust to your preferred size */
+    height: 80px; /* Adjust to your preferred size */
+    margin-right: 10px; /* Adjust space between icon and title */
+}
+
+.header-title h1 {
+    color: #1a73e8; /* Blue text for title */
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #4169E1; /* Blue background for navbar */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Aligns the icon with the "Best prospects of 2025" element */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #4169E1; /* Keep existing color */
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white; /* White text for navbar */
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #2f4f98;
+}
+
+.navbar {
+    background-color: #4169E1; /* Blue background for navbar */
+    color: white; /* White text for navbar */
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Main Content Area */
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Picture */
+.picture {
+    width: 50%; /* Makes the image take up half the width of the website */
+    height: auto; /* Keeps the aspect ratio intact */
+    border-radius: 8px; /* Optional: Keeps the corners round */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+    display: block; /* Ensures the image behaves like a block-level element */
+    margin: 0; /* Aligns the image to the left */
+}
+
+/* Content Area */
+.content {
+    flex: 3;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-right: 20px;
+}
+
+/* Prospect Picture */
+.prospect-picture {
+    width: 100%;
+    height: 200px;
+    border: 1px solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* Sidebar */
+aside {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+aside button {
+    padding: 15px;
+    background-color: white;
+    border: 2px solid #4169E1;
+    color: #4169E1;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+aside button:hover {
+    background-color: #4169E1;
+    color: white;
+}
+
